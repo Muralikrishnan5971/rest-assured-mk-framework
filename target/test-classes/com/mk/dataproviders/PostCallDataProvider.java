@@ -12,9 +12,9 @@ public class PostCallDataProvider {
 	}
 
 	@DataProvider(name = "PostCallTestData")
-	public static Object[][] postCallData() {
+	public static Users[][] postCallData() {
 
-		Object[][] userData = new Object[2][1];
+		Users[][] userData = new Users[2][1];
 
 		Users user1 = Users.builder().setName(RandomUtils.getUserName()).setJob(RandomUtils.getUserJob()).build();
 		Users user2 = Users.builder().setName(RandomUtils.getUserName()).setJob(RandomUtils.getUserJob()).build();
@@ -23,5 +23,6 @@ public class PostCallDataProvider {
 		userData[1][0] = user2;
 
 		return userData;
+		 
 	}
 }
