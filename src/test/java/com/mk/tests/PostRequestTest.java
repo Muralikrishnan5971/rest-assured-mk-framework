@@ -6,7 +6,6 @@ import org.assertj.core.api.Assertions;
 import org.testng.annotations.Test;
 
 import com.mk.constants.ProjectConstants;
-import com.mk.dataproviders.PostCallDataProvider;
 import com.mk.enums.ConfigProperty;
 import com.mk.pojos.DeserialisedUsers;
 import com.mk.pojos.Users;
@@ -18,7 +17,7 @@ import io.restassured.response.Response;
 
 public class PostRequestTest {
 
-	@Test(dataProvider = "PostCallTestData", dataProviderClass = PostCallDataProvider.class)
+	@Test(dataProvider = "PostCallTestData", dataProviderClass = TestRequestDataProvider.class)
 	public final void reqresPostCall(Users user) {
 
 		Response response = RequestBuilder.buildPostRequest()

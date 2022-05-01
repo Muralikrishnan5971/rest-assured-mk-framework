@@ -3,7 +3,7 @@ package com.mk.pojos;
 import lombok.Getter;
 
 @Getter
-public class DeserialisedUsers {
+public final class DeserialisedUsers {
 
 	private String name;
 	private String job;

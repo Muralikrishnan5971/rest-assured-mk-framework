@@ -1,0 +1,9 @@
+com\mk\enums\ConfigProperty.class
+com\mk\requestutils\PropertyReader.class
+com\mk\requestbuilderutils\RequestBuilder.class
+com\mk\requestutils\TestDataUtil.class
+com\mk\constants\ProjectConstants.class
+com\mk\requestutils\FakerUtil.class
+com\mk\pojos\DeserialisedUsers.class
+com\mk\pojos\Users$UsersBuilder.class
+com\mk\pojos\Users.class

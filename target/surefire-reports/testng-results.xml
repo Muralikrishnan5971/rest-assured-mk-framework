@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8870" started-at="2022-05-01T19:53:00 IST" finished-at="2022-05-01T19:53:09 IST">
+    <groups>
+    </groups>
+    <test name="Post Call Tests" duration-ms="8870" started-at="2022-05-01T19:53:00 IST" finished-at="2022-05-01T19:53:09 IST">
+      <class name="com.mk.tests.PostRequestTest">
+        <test-method status="PASS" signature="reqresPostCall(com.mk.pojos.Users)[pri:0, instance:com.mk.tests.PostRequestTest@7c29daf3]" name="reqresPostCall" duration-ms="6532" started-at="2022-05-01T19:53:00 IST" data-provider="PostCallTestData" finished-at="2022-05-01T19:53:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mk.pojos.Users@66596a88]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reqresPostCall -->
+        <test-method status="PASS" signature="reqresPostCall(com.mk.pojos.Users)[pri:0, instance:com.mk.tests.PostRequestTest@7c29daf3]" name="reqresPostCall" duration-ms="1982" started-at="2022-05-01T19:53:07 IST" data-provider="PostCallTestData" finished-at="2022-05-01T19:53:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mk.pojos.Users@4ffced4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reqresPostCall -->
+      </class> <!-- com.mk.tests.PostRequestTest -->
+    </test> <!-- Post Call Tests -->
+  </suite> <!-- Suite -->
+</testng-results>

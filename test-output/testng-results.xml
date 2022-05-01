@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="10239" started-at="2022-05-01T06:47:10Z" finished-at="2022-05-01T06:47:20Z">
+  <suite name="Suite" duration-ms="8521" started-at="2022-05-01T14:22:18Z" finished-at="2022-05-01T14:22:27Z">
     <groups>
     </groups>
-    <test name="Post Call Tests" duration-ms="10239" started-at="2022-05-01T06:47:10Z" finished-at="2022-05-01T06:47:20Z">
+    <test name="Post Call Tests" duration-ms="8521" started-at="2022-05-01T14:22:18Z" finished-at="2022-05-01T14:22:27Z">
       <class name="com.mk.tests.PostRequestTest">
-        <test-method status="PASS" signature="reqresPostCall(com.mk.pojos.Users)[pri:0, instance:com.mk.tests.PostRequestTest@7c75222b]" name="reqresPostCall" duration-ms="7589" started-at="2022-05-01T12:17:10Z" data-provider="PostCallTestData" finished-at="2022-05-01T12:17:18Z">
+        <test-method status="PASS" signature="reqresPostCall(com.mk.pojos.Users)[pri:0, instance:com.mk.tests.PostRequestTest@7c75222b]" name="reqresPostCall" duration-ms="5945" started-at="2022-05-01T19:52:18Z" data-provider="PostCallTestData" finished-at="2022-05-01T19:52:24Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reqresPostCall -->
-        <test-method status="PASS" signature="reqresPostCall(com.mk.pojos.Users)[pri:0, instance:com.mk.tests.PostRequestTest@7c75222b]" name="reqresPostCall" duration-ms="2174" started-at="2022-05-01T12:17:18Z" data-provider="PostCallTestData" finished-at="2022-05-01T12:17:20Z">
+        <test-method status="PASS" signature="reqresPostCall(com.mk.pojos.Users)[pri:0, instance:com.mk.tests.PostRequestTest@7c75222b]" name="reqresPostCall" duration-ms="2161" started-at="2022-05-01T19:52:24Z" data-provider="PostCallTestData" finished-at="2022-05-01T19:52:27Z">
           <params>
             <param index="0">
               <value>

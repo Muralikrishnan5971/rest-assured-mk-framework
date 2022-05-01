@@ -5,8 +5,9 @@ import lombok.Getter;
 
 @Getter
 @Builder(setterPrefix = "set")
-public class Users {
+public final class Users {
 
 	private String name;
 	private String job;
+
 }
