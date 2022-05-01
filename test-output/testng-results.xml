@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10420" started-at="2022-04-30T18:05:20Z" finished-at="2022-04-30T18:05:30Z">
+  <suite name="Suite" duration-ms="10239" started-at="2022-05-01T06:47:10Z" finished-at="2022-05-01T06:47:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10420" started-at="2022-04-30T18:05:20Z" finished-at="2022-04-30T18:05:30Z">
-      <class name="com.mk.mytests.PostRequestTest">
-        <test-method status="PASS" signature="ReqresPostCall(com.mk.pojos.Users)[pri:0, instance:com.mk.mytests.PostRequestTest@4c203ea1]" name="ReqresPostCall" duration-ms="8388" started-at="2022-04-30T23:35:20Z" data-provider="PostCallTestData" finished-at="2022-04-30T23:35:28Z">
+    <test name="Post Call Tests" duration-ms="10239" started-at="2022-05-01T06:47:10Z" finished-at="2022-05-01T06:47:20Z">
+      <class name="com.mk.tests.PostRequestTest">
+        <test-method status="PASS" signature="reqresPostCall(com.mk.pojos.Users)[pri:0, instance:com.mk.tests.PostRequestTest@7c75222b]" name="reqresPostCall" duration-ms="7589" started-at="2022-05-01T12:17:10Z" data-provider="PostCallTestData" finished-at="2022-05-01T12:17:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.mk.pojos.Users@54a097cc]]>
+                <![CDATA[com.mk.pojos.Users@705202d1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ReqresPostCall -->
-        <test-method status="PASS" signature="ReqresPostCall(com.mk.pojos.Users)[pri:0, instance:com.mk.mytests.PostRequestTest@4c203ea1]" name="ReqresPostCall" duration-ms="1998" started-at="2022-04-30T23:35:28Z" data-provider="PostCallTestData" finished-at="2022-04-30T23:35:30Z">
+        </test-method> <!-- reqresPostCall -->
+        <test-method status="PASS" signature="reqresPostCall(com.mk.pojos.Users)[pri:0, instance:com.mk.tests.PostRequestTest@7c75222b]" name="reqresPostCall" duration-ms="2174" started-at="2022-05-01T12:17:18Z" data-provider="PostCallTestData" finished-at="2022-05-01T12:17:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.mk.pojos.Users@b18c4]]>
+                <![CDATA[com.mk.pojos.Users@4b957db0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ReqresPostCall -->
-      </class> <!-- com.mk.mytests.PostRequestTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- reqresPostCall -->
+      </class> <!-- com.mk.tests.PostRequestTest -->
+    </test> <!-- Post Call Tests -->
+  </suite> <!-- Suite -->
 </testng-results>
