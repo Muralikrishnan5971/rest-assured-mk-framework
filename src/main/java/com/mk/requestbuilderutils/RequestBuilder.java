@@ -1,6 +1,6 @@
 package com.mk.requestbuilderutils;
 
-import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.*;
 
 import com.mk.enums.ConfigProperty;
 import com.mk.requestutils.PropertyReader;

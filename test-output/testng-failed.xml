@@ -6,4 +6,13 @@
       <class name="com.mk.tests.PostRequestTest"/>
     </classes>
   </test> <!-- Post Call Tests -->
+  <test name="Post Call Tests(failed)">
+    <classes>
+      <class name="com.mk.tests.PostRequestTest">
+        <methods>
+          <include name="reqresPostCall" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.mk.tests.PostRequestTest -->
+    </classes>
+  </test> <!-- Post Call Tests(failed) -->
 </suite> <!-- Failed suite [Suite] -->

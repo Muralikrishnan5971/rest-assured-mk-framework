@@ -2,7 +2,7 @@ package com.mk.tests;
 
 import java.util.concurrent.TimeUnit;
 
-import org.assertj.core.api.Assertions;
+import static org.assertj.core.api.Assertions.*;
 import org.testng.annotations.Test;
 
 import com.mk.constants.ProjectConstants;
@@ -29,11 +29,11 @@ public class PostRequestTest {
 		
 		response.then().body(JsonSchemaValidator.matchesJsonSchemaInClasspath(ProjectConstants.getResposeSchemaFilePath()));
 
-		Assertions.assertThat(response.getStatusCode()).as("Validate response status code").isEqualTo(201);
+		assertThat(response.getStatusCode()).as("Validate response status code").isEqualTo(201);
 
-		Assertions.assertThat(response.timeIn(TimeUnit.SECONDS)).as("Validate response time").isLessThan(5);
+		assertThat(response.timeIn(TimeUnit.SECONDS)).as("Validate response time").isLessThan(5);
 
-		Assertions.assertThat(response.getContentType()).as("Validate response content type").contains("application/json");
+		assertThat(response.getContentType()).as("Validate response content type").contains("application/json");
 
 		DeserialisedUsers deserialisedUser = response.body().as(DeserialisedUsers.class);
 
